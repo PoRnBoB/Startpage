@@ -1,3 +1,3 @@
 #My StartPages 
 
-A Local Folder where my StartPages located
+A Local Folder where my StartPages are stored
