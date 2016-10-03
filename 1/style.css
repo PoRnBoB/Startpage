@@ -1,0 +1,100 @@
+@import url(http://fonts.googleapis.com/css?family=Terminal);
+
+html, body{
+	margin: 0;
+	padding: 0;
+	background-color: #6C6C6C;
+	background-image: url('bg.jpg');
+	color: #FFFFFF;
+	font-size: 13px;
+}
+
+* {
+	font-family:Terminal, monospace;
+	font-weight: 100;
+}
+
+#container {
+	position: absolute;
+	padding: 0 20px 0 20px;
+	top: 20%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	height: 700px;
+}
+
+#search {
+	border: 2px dashed #FFFFFF;
+	background-color: #1b1b1b;
+	margin: 4px;
+	padding: 8px;
+}
+
+#search:hover {
+	border: 2px solid #FFFFFF;
+}
+
+
+#links {
+	display: -moz-box;
+	display: -webkit-box;
+	width: 100%;
+}
+
+.linkbox {
+    	-moz-box-flex: 1;	
+	-webkit-box-flex: 1;
+	margin: 3px;
+	padding: 8px 8px 8px 8px;
+	background-color: #1b1b1b;
+	border: 2px dashed #FFFFFF;
+}
+
+
+.linkbox:hover {
+	border: 2px solid #FFFFFF;
+}
+
+.linkbox a{
+	display: block;
+	color: #6673BF;
+}
+
+h3 {
+	font-size: 14px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.console {
+	padding: 0;
+	color: #01DF01;
+}
+
+a:link, a:visited, a:active {
+	color: 377EF0;
+	text-decoration: none;
+}
+a:hover {
+	color: 377EF0;
+	text-decoration: underline;
+}
+
+form {
+	display: inline;
+}
+
+input 	{
+	display: inline;
+	background: none;
+	display: inline;
+	border: none;
+	color: #FFF;
+	width: 70%;
+	font-size: 14px;
+}
